@@ -5,17 +5,24 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 <<<<<<< HEAD
+<<<<<<< HEAD
 import androidx.compose.foundation.background
 =======
 >>>>>>> 5ea267412077058a23bac47996a0ae439e394280
+=======
+>>>>>>> Upgrading_component_1
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 <<<<<<< HEAD
+<<<<<<< HEAD
 import androidx.compose.foundation.layout.height
 =======
 >>>>>>> 5ea267412077058a23bac47996a0ae439e394280
+=======
+import androidx.compose.foundation.layout.height
+>>>>>>> Upgrading_component_1
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -25,8 +32,11 @@ import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+<<<<<<< HEAD
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
+=======
+>>>>>>> Upgrading_component_1
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -50,6 +60,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+<<<<<<< HEAD
 fun ViewHolaCurso(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
@@ -91,6 +102,8 @@ fun ViewHolaCurso(modifier: Modifier = Modifier) {
     }
 }
 
+=======
+>>>>>>> Upgrading_component_1
 fun ViewHolaCurso() {
     Column(
         modifier = Modifier
@@ -101,12 +114,22 @@ fun ViewHolaCurso() {
         Text(
             text = "Welcome to the Course!",
             fontSize = 28.sp,
+<<<<<<< HEAD
             fontWeight = FontWeight.Bold
+=======
+            fontWeight = FontWeight.Bold,
+            color = Color.Blue // Cambia el color del texto
+>>>>>>> Upgrading_component_1
         )
         Spacer(modifier = Modifier.height(16.dp))
         Text(
             text = "Hello, Student!",
+<<<<<<< HEAD
             fontSize = 20.sp
+=======
+            fontSize = 20.sp,
+            color = Color.Gray // Cambia el color del texto
+>>>>>>> Upgrading_component_1
         )
     }
 }
