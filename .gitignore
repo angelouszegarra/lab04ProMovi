@@ -6,6 +6,7 @@ ECHO est  activado.
 
 # Build
 /build/
+<<<<<<< HEAD
 captures/
 outputs/
 
@@ -13,6 +14,16 @@ outputs/
 .gradle/
 gradle-wrapper.jar
 gradle-wrapper.properties
+=======
+/captures/
+/outputs/
+
+# Gradle
+.gradle/
+/gradle-app.setting
+/gradle-wrapper.jar
+/gradle-wrapper.properties
+>>>>>>> origin/master
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -24,6 +35,7 @@ proguard/
 .DS_Store
 .classpath
 .project
+<<<<<<< HEAD
 .settings/
 
 # Excluir carpeta de pruebas
@@ -31,3 +43,6 @@ proguard/
 
 # Excluir archivos de registro
 *.log
+=======
+.settings/
+>>>>>>> origin/master
